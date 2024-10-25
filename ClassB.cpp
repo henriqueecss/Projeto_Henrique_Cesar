@@ -13,6 +13,7 @@ class B {
         void setB2(float B2);
         void MB1();
         void MB2();
+        void MB3();
 };
 
 B::B(int B1, float B2){
@@ -42,4 +43,8 @@ void B::MB1(){
 
 void B::MB2(){
     std::cout << "MB2\n";
+}
+
+void B::MB3(){
+    std::cout << "MB3\n";
 }
