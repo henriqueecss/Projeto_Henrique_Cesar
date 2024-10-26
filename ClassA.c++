@@ -14,6 +14,7 @@ class A {
         void MA1();
         void MA2();
         void MA3();
+        int getSoma(int a, int b);
 };
 
 A::A(int A1, float A2){
@@ -47,4 +48,8 @@ void A::MA2(){
 
 void A::MA3(){
     std::cout << "Alteração a classe A partir do clone\n";
+}
+
+int A::getSoma(int a, int b){
+    return a+b;
 }
