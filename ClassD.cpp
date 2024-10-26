@@ -9,6 +9,7 @@ class D {
         ~D();
         void MD1();
         void MD2();
+        void MD4();
 };
 
 D::D(float D1, int D2){
@@ -22,4 +23,8 @@ void D::MD1(){
 
 void D::MD2(){
     std::cout << "MD2\n";
+}
+
+void D::MD4(){
+    std::cout << "MD4\n";
 }
